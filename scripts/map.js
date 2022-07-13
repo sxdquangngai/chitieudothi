@@ -908,14 +908,14 @@ $(window).on('load', function() {
 
     if (name && url) {
       if (url.indexOf('@') > 0) { url = 'mailto:' + url; }
-      credit += ' by <a href="' + url + '">' + name + '</a> | ';
+      credit += ' Dữ liệu <a href="https://docs.google.com/spreadsheets/d/1-zjmFAYTNGl1a6ik1gfBNWfDsbF3MFmL6A-R7CPqgOM/edit#gid=1326225753">' + name + '</a> | ';
     } else if (name) {
       credit += ' by ' + name + ' | ';
     } else {
       credit += ' | ';
     }
 
-    credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
+    credit += 'View <a href="https://docs.google.com/spreadsheets/d/1-zjmFAYTNGl1a6ik1gfBNWfDsbF3MFmL6A-R7CPqgOM/edit#gid=1326225753">Dự dự liệu</a>';
     if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
     credit += ' with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
