@@ -915,9 +915,9 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'View <a href="https://docs.google.com/spreadsheets/d/1-zjmFAYTNGl1a6ik1gfBNWfDsbF3MFmL6A-R7CPqgOM/edit#gid=1326225753">Dự dự liệu</a>';
-    if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
-    credit += ' with ';
+    credit += '<a href="https://docs.google.com/spreadsheets/d/1-zjmFAYTNGl1a6ik1gfBNWfDsbF3MFmL6A-R7CPqgOM/edit#gid=1326225753"></a>';
+    if (getSetting('')) credit += ' ' + getSetting('');
+    credit += ' ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
 
