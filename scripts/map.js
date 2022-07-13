@@ -902,7 +902,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
+    var credit = 'View <a href="https://docs.google.com/spreadsheets/d/1-zjmFAYTNGl1a6ik1gfBNWfDsbF3MFmL6A-R7CPqgOM/edit#gid=1326225753" target="_blank">data</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
